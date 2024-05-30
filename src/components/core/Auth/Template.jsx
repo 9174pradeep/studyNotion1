@@ -1,4 +1,4 @@
-import { FcGoogle } from "react-icons/fc"
+// import { FcGoogle } from "react-icons/fc"
 import { useSelector } from "react-redux"
 
 import frameImg from "../../../assets/Images/frame.png"
@@ -26,21 +26,21 @@ function Template({ title, description1, description2, image, formType }) {
             </p>
             {formType === "signup" ? <SignupForm /> : <LoginForm />}
           </div>
-          <div className="relative mx-auto w-11/12 max-w-[450px] md:mx-0">
+          <div className="relative mx-auto w-8/12 max-w-[450px] md:mx-0">
             <img
               src={frameImg}
               alt="Pattern"
-              width={558}
-              height={504}
+              width={8}
+              height={27}
               loading="lazy"
             />
             <img
               src={image}
               alt="Students"
-              width={558}
-              height={504}
+              width={550}
+              height={271}
               loading="lazy"
-              className="absolute -top-4 right-4 z-10"
+              className="absolute -top-4.1 right-4 z-10"
             />
           </div>
         </div>
